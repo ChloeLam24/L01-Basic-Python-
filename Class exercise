@@ -6,3 +6,10 @@
 name = input("What is your name?")
 age = input ("What is your age?")
 print("Hello",name,age)
+
+
+#age+5
+name= input("What is your name?")
+age = input ("What is your age?")
+age_5=int(age)+5
+print("Hello",name,",""you will be",age_5)
