@@ -1,0 +1,8 @@
+# ask the first question to get the name (str)
+# ask the second question to get the age (int)
+# print greeting "hello " + name + age
+
+
+name = input("What is your name?")
+age = input ("What is your age?")
+print("Hello",name,age)
