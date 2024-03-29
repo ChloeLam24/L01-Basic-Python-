@@ -1,7 +1,7 @@
 # Homework
-Write a function to prints out a list of all the divisors of a user input number. 
-A divisor is a number that divides into another number without a remainder. 
-For example, 1,3,5,15 is the divisors of 15.
+#Write a function to prints out a list of all the divisors of a user input number. 
+#A divisor is a number that divides into another number without a remainder. 
+#For example, 1,3,5,15 is the divisors of 15.
 
 
 def a(number):
@@ -12,4 +12,4 @@ def a(number):
     return (b)
     
 number=int(input("Please enter a number"))
-print("The divisors of ",number,"are",a(number))
+print(a(number),"is the divisors of ",number)
